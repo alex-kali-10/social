@@ -1,0 +1,190 @@
+.block-news {
+  display: block;
+  background: #464646;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  position: relative; }
+  .block-news .block1 {
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: relative; }
+    .block-news .block1 .username {
+      margin-left: 60px;
+      line-height: 30px;
+      cursor: pointer; }
+    .block-news .block1 .avatar {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 4px;
+      background: grey;
+      border-radius: 40px 40px;
+      background-size: cover;
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      cursor: pointer; }
+  .block-news .block2 {
+    display: block;
+    width: 80%;
+    min-height: 30px;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative; }
+  .block-news .block-inf {
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: relative; }
+    .block-news .block-inf::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 2%;
+      top: -5px;
+      width: 96%;
+      height: 1px;
+      background: #1e1e1e; }
+    .block-news .block-inf::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 100%;
+      height: 1px;
+      background: #1e1e1e; }
+    .block-news .block-inf .block-like {
+      display: block;
+      position: absolute;
+      left: -18px;
+      top: 3px;
+      width: 50px;
+      height: 50px;
+      cursor: pointer; }
+    .block-news .block-inf .like::after, .block-news .block-inf .like::before {
+      background: #963232 !important; }
+    .block-news .block-inf .block-comment {
+      display: block;
+      position: absolute;
+      left: 40%;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/comments.svg);
+      background-size: cover; }
+    .block-news .block-inf .block-repost {
+      display: block;
+      position: absolute;
+      right: 60px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/repost.svg);
+      background-size: cover; }
+    .block-news .block-inf .text {
+      display: block;
+      position: absolute;
+      right: -30px;
+      top: 3px;
+      width: 30px;
+      height: 20px;
+      text-align: center; }
+  .block-news .comment-block {
+    display: block;
+    width: 92%;
+    min-height: 20px;
+    margin: 3px;
+    margin-left: 5%;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 15px; }
+    .block-news .comment-block .username {
+      display: block;
+      position: absolute;
+      left: 50px;
+      top: 5px;
+      cursor: pointer; }
+    .block-news .comment-block .text {
+      display: inline-block;
+      margin-left: 50px;
+      margin-top: 30px; }
+    .block-news .comment-block .avatar {
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      background: black;
+      border-radius: 40px 40px;
+      background-size: cover;
+      left: 2px;
+      top: 2px;
+      cursor: pointer; }
+    .block-news .comment-block::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50px;
+      bottom: -5px;
+      width: calc(100% - 50px);
+      height: 1px;
+      background: #1e1e1e; }
+  .block-news .more-comment {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background: #464646;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center; }
+
+.more-news {
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #646464;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 25px; }
+
+.no-comment {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  line-height: 25px; }
+
+.like_users {
+  display: block;
+  position: absolute;
+  top: -43px;
+  left: -20px;
+  height: 40px;
+  width: 200px; }
+  .like_users::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 6px; }
+  .like_users .comment-block {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    margin-left: 3px;
+    margin-right: 0;
+    padding: 0;
+    margin: 0;
+    background: #646464; }
+
+.like-block {
+  position: absolute;
+  background: rebeccapurple;
+  width: 0;
+  height: 0;
+  left: 39px;
+  top: 3px; }

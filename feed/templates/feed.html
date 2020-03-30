@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feed</title>
+    <script>
+        let user = '{{ user }}';
+        let user_id = '{{ user.id }}';
+        let csrf = '{{ csrf_token }}';
+        let avatar = '{{ avatarUrl }}';
+        let page = '{{ page }}';
+        let page_id = '{{ page_id }}';
+    </script>
+</head>
+<body>
+<link href="{% static 'css/reset.css' %}" rel="stylesheet">
+<link href="{% static 'css/main_page.css' %}" rel="stylesheet">
+<link href="{% static 'css/profile.css' %}" rel="stylesheet">
+<link href="{% static 'css/users.css' %}" rel="stylesheet">
+<link href="{% static 'css/dialog.css' %}" rel="stylesheet">
+<link href="{% static 'css/friends.css' %}" rel="stylesheet">
+<link href="{% static 'css/news.css' %}" rel="stylesheet">
+<link href="{% static 'css/heart.css' %}" rel="stylesheet">
+<link href="{% static 'css/dialogs.css' %}" rel="stylesheet">
+<div class="top_menu">
+
+</div>
+
+<div class="left_block">
+    <div class="left_menu">
+        <div class="item" onclick="react_main.setState({page:'profile', data:user_id})">Моя страница</div>
+        <div class="item" onclick="react_main.setState({page:'news'})">Новости</div>
+        <div class="item" onclick="react_main.setState({page:'dialogs'})">Сообщения</div>
+        <div class="item" onclick="react_main.setState({page:'friends'})">Друзья</div>
+        <div class="item" onclick="react_main.setState({page:'users'})">Пользователи</div>
+    </div>
+</div>
+
+<div class="content" id="content">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+
+
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type = "text/babel" src="{% static 'js/channel.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/news.js' %}"></script>
+
+
+<script type = "text/babel" src="{% static 'js/my_profile.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/main_page.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/users.js' %}"></script>
+
+<script type = "text/babel" src="{% static 'js/dialog.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/dialogs.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/friends.js' %}"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d41d877-2f2a-4ea4-aa9a-af5229dc6a74" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectId" id="1ZOKkoAUilldqGzYytVLLYangWB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dotadream" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex_kali\PycharmProjects\my_social\static\img" />
+      <recent name="C:\Users\alex_kali\PycharmProjects\my_social" />
+      <recent name="C:\Users\alex_kali\PycharmProjects\my_social\media\img_user" />
+      <recent name="C:\Users\alex_kali\PycharmProjects\my_social\static\js" />
+      <recent name="C:\Users\alex_kali\PycharmProjects\my_social\static\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d41d877-2f2a-4ea4-aa9a-af5229dc6a74" name="Default Changelist" comment="" />
+      <created>1583600418026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583600418026</updated>
+      <workItem from="1583681081475" duration="10574000" />
+      <workItem from="1584704853554" duration="15576000" />
+      <workItem from="1584783026447" duration="24000" />
+      <workItem from="1584783081452" duration="46000" />
+      <workItem from="1584783210467" duration="286000" />
+      <workItem from="1584783571565" duration="7000" />
+      <workItem from="1584783906708" duration="979000" />
+      <workItem from="1584796428153" duration="10051000" />
+      <workItem from="1584820926352" duration="6178000" />
+      <workItem from="1584892820771" duration="13925000" />
+      <workItem from="1584984429087" duration="633000" />
+      <workItem from="1584990087852" duration="560000" />
+      <workItem from="1585321755660" duration="18749000" />
+      <workItem from="1585403558443" duration="21496000" />
+      <workItem from="1585574507906" duration="674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sass" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585425136936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585425136936" />
+    <state x="268" y="193" key="SettingsEditor" timestamp="1584783927534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="193" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584783927534" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584807315292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584807315292" />
+  </component>
+</project>

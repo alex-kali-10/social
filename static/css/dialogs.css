@@ -1,0 +1,71 @@
+.block1 {
+  width: 100%;
+  height: 30px; }
+
+.block-item-chat {
+  display: block;
+  width: 80%;
+  height: 80px;
+  background: #464646;
+  margin-left: 10%;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 5px; }
+  .block-item-chat .block-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  .block-item-chat::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 60px;
+    bottom: 2px;
+    width: calc(100% - 60px);
+    height: 1px;
+    background: #1e1e1e; }
+  .block-item-chat:last-child {
+    padding-bottom: 0; }
+    .block-item-chat:last-child::after {
+      background: rgba(30, 30, 30, 0); }
+  .block-item-chat .name-item {
+    position: absolute;
+    left: 80px;
+    top: 5px; }
+  .block-item-chat .avatar {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    border-radius: 50px 50px;
+    background-size: cover;
+    left: 10px;
+    top: 10px; }
+  .block-item-chat .last-message {
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    width: calc(100% - 80px);
+    height: calc(100% - 35px);
+    overflow: hidden; }
+    .block-item-chat .last-message .last_message-username {
+      position: absolute;
+      left: 50px;
+      top: 5px; }
+    .block-item-chat .last-message .last_message-message {
+      position: absolute;
+      left: 50px;
+      top: 25px; }
+    .block-item-chat .last-message .last_message-avatar {
+      display: block;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      background: grey;
+      border-radius: 35px 35px;
+      background-size: cover;
+      left: 5px;
+      top: 5px; }

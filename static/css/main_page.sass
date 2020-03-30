@@ -1,0 +1,49 @@
+.top_menu
+  width: 100%
+  height: 60px
+  background: black
+  position: absolute
+  top: 0
+  left: 0
+
+.left_block
+  width: calc(50% - 325px)
+  height: calc(100% - 60px)
+  background: darkgray
+  position: absolute
+  top: 60px
+  left: 0
+  .left_menu
+    position: absolute
+    right: 0
+    top: 0
+    height: calc(100% - 15px)
+    width: 220px
+    background: aliceblue
+    padding-top: 15px
+    .item
+      width: 100%
+      height: 30px
+      line-height: 25px
+      text-indent: 35px
+      cursor: pointer
+      &:hover
+        background: grey
+
+.content
+  width: 650px
+  min-height: calc(100% - 60px)
+  background: grey
+  margin-top: 60px
+  margin-left: calc(50% - 325px)
+  position: relative
+  .main
+    width: 100%
+    height: auto
+
+body
+  position: absolute
+  display: block
+  width: 100%
+  height: 100%
+

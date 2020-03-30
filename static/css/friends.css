@@ -1,0 +1,96 @@
+.friends-block {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden; }
+  .friends-block .menu {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #5a5a5a; }
+    .friends-block .menu .item {
+      display: inline-block;
+      width: 22%;
+      height: 100%;
+      text-align: center;
+      line-height: 35px;
+      cursor: pointer;
+      position: relative; }
+      .friends-block .menu .item:first-child::before {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        left: 0%;
+        bottom: 0px;
+        background: #1e1e1e;
+        -webkit-transition: 1s;
+        transition: 1s; }
+  .friends-block .list {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 300%;
+    height: calc(100% - 40px);
+    -webkit-transition: 1s;
+    transition: 1s; }
+    .friends-block .list .list-block-1 {
+      display: block;
+      float: left;
+      width: 33.33333%;
+      height: 100%; }
+    .friends-block .list .list-block-2 {
+      display: block;
+      float: left;
+      width: 33.33333%;
+      height: 100%; }
+    .friends-block .list .list-block-3 {
+      display: block;
+      float: left;
+      width: 33.33333%;
+      height: 100%; }
+  .friends-block .block-item {
+    display: block;
+    width: 80%;
+    height: 60px;
+    background: #5a5a5a;
+    margin-left: 10%;
+    margin-top: 10px;
+    position: relative; }
+    .friends-block .block-item .name-item {
+      position: absolute;
+      left: 75px;
+      top: 5px;
+      cursor: pointer; }
+    .friends-block .block-item .dialog {
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+      width: 160px;
+      height: 30px;
+      background: lightgrey;
+      text-align: center;
+      line-height: 30px; }
+    .friends-block .block-item .avatar {
+      display: block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: grey;
+      border-radius: 50px 50px;
+      background-size: cover;
+      left: 5px;
+      top: 5px;
+      cursor: pointer; }
+
+.my-invite .menu .item:first-child::before {
+  left: 100% !important; }
+
+.invite-me .menu .item:first-child::before {
+  left: 200% !important; }
+
+.my-invite .list {
+  left: -100%; }
+
+.invite-me .list {
+  left: -200%; }

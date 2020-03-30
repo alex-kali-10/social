@@ -1,0 +1,30 @@
+.users {
+  width: 100%;
+  height: 100%;
+  background: grey; }
+  .users .block-item {
+    display: block;
+    width: 80%;
+    height: 200px;
+    background: green;
+    margin-left: 10%;
+    margin-top: 10px;
+    position: relative; }
+    .users .block-item .dialog {
+      display: block;
+      width: 140px;
+      height: 30px;
+      background: azure;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      cursor: pointer; }
+    .users .block-item .friend {
+      display: block;
+      width: 140px;
+      height: 30px;
+      background: azure;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      cursor: pointer; }
